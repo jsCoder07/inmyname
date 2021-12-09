@@ -376,7 +376,7 @@ section {
 }
 .aurora-outer {
   background: linear-gradient(45deg, #32a6ff 0%, #3f6fff 49%, #8d54ff 82%);
-  background-size: 200%;
+  
   
 }
 
@@ -385,27 +385,11 @@ section {
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0.15)
   );
-  background-size: 200%;
+  
   
 }
 
-@keyframes aurora {
-  0% {
-    background-position: left top;
-  }
-  25% {
-    background-position: right top;
-  }
-  50% {
-    background-position: right bottom;
-  }
-  75% {
-    background-position: left bottom;
-  }
-  100% {
-    background-position: left top;
-  }
-}
+
 
 .flogo {
   display: flex;
