@@ -79,6 +79,7 @@ section#six {
   margin-right: clamp(0.05rem, 3rem, 5rem);
   margin-left: clamp(0.05rem, 3rem, 5rem);
   background: rgb(250, 250, 250);
+  z-index: 5 !important;
 }
 .spacer {
   width: 100vw;
@@ -138,6 +139,7 @@ section#seven {
   z-index: 3;
   animation: fly 12s linear infinite;
   transform: rotate(0) translate(80px) rotate(0);
+  z-index: 1 !important;
 }
 
 .two {
@@ -146,6 +148,7 @@ section#seven {
   background-color: #7c336c;
   bottom: 30px;
   left: 80px;
+  z-index: 1 !important;
 }
 
 .three {
@@ -157,6 +160,7 @@ section#seven {
   background-color: #b3588a;
   animation: flyPlus 8s linear infinite;
   transform: rotate(0) translate(100px) rotate(0);
+  z-index: 1 !important;
 }
 .oneB {
   border-radius: 100%;
